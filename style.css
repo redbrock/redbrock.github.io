@@ -1,0 +1,19 @@
+body{
+    background: #01FDF6;
+    font-family: "Handsief"
+}
+h1{
+  text-align: center;
+}
+
+.main {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+disclaimer {
+  text-align: left;
+  text
+}
