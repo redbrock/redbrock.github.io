@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 
     <title>look i have a website</title>
   </head>
@@ -12,9 +16,38 @@
           <br>
           <p>im trying to make websites</p>
     </main>
-    <footer class="disclaimer">
-      <p>whatever i make will go on here, it won't be empty forever. if you want to contact me, message me on discord at brock #7789</p>
-    </footer>
+
+    <!-- The parent component -->
+    <div class="curtain">
+
+      <!-- The component wrapper -->
+      <div class="curtain__wrapper">
+
+        <!-- The checkbox hack! -->
+        <input type="checkbox" checked>
+
+        <!-- The left curtain panel -->
+        <div class="curtain__panel curtain__panel--left">
+
+        </div> <!-- curtain__panel -->
+
+        <!-- The prize behind the curtain panels -->
+        <div class="curtain__prize">
+          <p>soon™</p>
+
+        </div> <!-- curtain__prize -->
+
+        <!-- The right curtain panel -->
+        <div class="curtain__panel curtain__panel--right">
+
+        </div> <!-- curtain__panel -->
+
+      </div> <!-- curtain__wrapper -->
+
+    </div> <!-- curtain -->
+    <div class="arrow bounce">
+
+    </div>
 
     <script src="script.js"></script>
   </body>
