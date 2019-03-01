@@ -32,7 +32,7 @@ h1{
 .curtain__panel {
   background: #01FDF6;
   width: 50%; /* Each panel takes up half the container */
-  height: 70vh;
+  height: 50vh;
   float: left; /* Makes sure panels are side-by-side */
   position: relative; /* Needed to define the z-index */
   z-index: 2; /* Places the panels in front of the prize */
@@ -54,6 +54,7 @@ h1{
   width: 100%;
   height: 110%;
   text-align: center;
+
   font-size: 50px
 }
 input[type=checkbox] {
